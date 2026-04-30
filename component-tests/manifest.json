@@ -1,0 +1,7 @@
+{
+  "name":"Components Test", 
+  "id":"comp", 
+  "description":"An example custom addon that adds a /components page with UI component tests.", 
+  "authors":["Luduvo Addons", "owl"],
+  "js":"addon.js"
+}
