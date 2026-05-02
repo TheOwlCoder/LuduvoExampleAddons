@@ -6,5 +6,5 @@ addons.registerSettings("settings", (dialog) => {
 })
 
 addons.navigationAddon("/dashboard", e => {
-    document.querySelector(".text-3xl.md\\:text-5xl.font-bold").innerHTML = (localStorage.csnameSettings)
+    if (localStorage.csnameSettings) document.querySelector(".text-3xl.md\\:text-5xl.font-bold").innerHTML = (localStorage.csnameSettings)
 })
