@@ -1,0 +1,8 @@
+{
+  "name":"Settings Example", 
+  "id":"settings", 
+  "description":"An example custom addon with settings. Changes your name on the dashboard.", 
+  "authors":["Luduvo Addons", "owl"],
+  "js":"addon.js",
+  "settings":true
+}
